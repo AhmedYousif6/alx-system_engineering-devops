@@ -4,15 +4,23 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+/**
+ * infinite_while - infinity while loop with sleep 1.
+ * Return: always success (0).
+*/
 int infinite_while(void)
 {
-    while (1)
-    {
-        sleep(1);
-    }
-    return (0);
+	while (1)
+	{
+		sleep(1);
+	}
+	return (0);
 }
 
+/**
+ * main - create 5 zombie process.
+ * Return: always success (0).
+*/
 int main(void)
 {
 	pid_t pid;
