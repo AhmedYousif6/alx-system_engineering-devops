@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# kill task 7 by send kill signal.
+pkill -f -SIGKILL 7-highlander
