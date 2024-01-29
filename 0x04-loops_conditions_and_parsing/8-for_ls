@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# list a directory
+for file in *; do
+echo "$file" | cut -d "-" -f 2
+done
