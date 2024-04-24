@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# configures non passphrase connection and use ~/.ssh/school
+# to authenticates
+Host *
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
