@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # creates ssh key (rsa) the private key is school and
 # passphrase is betty and from 4096 bits
-ssh -t rsa -b 4096 -p betty -f school
+ssh-keygen -t rsa -b 4096 -p betty -f school
